@@ -42,3 +42,22 @@ If you have local settings per a developer.
 ::
 
    python manage.py runserver --settings=project_name.settings.development
+
+
+Other usage
+===========
+
+For Test
+--------
+
+::
+
+   python manage.py test <app_name> --settings=project_name.settings.test
+
+For Jenkins
+-----------
+
+::
+
+   pip install -r requirements/jenkins.txt
+   python manage.py jenkins --settings=project_name.settings.test.jenkins

@@ -1,0 +1,8 @@
+-r common.txt
+coverage==3.6
+django-jenkins==0.14.0
+flake8==1.7.0
+lettuce==0.2.14
+pep8==1.4.2
+pyflakes==0.6.1
+pylint==0.26.0
